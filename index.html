@@ -3,33 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/symboler/css/fontawesome.css" rel="stylesheet">
+    <link href="css/symboler/css/brands.css" rel="stylesheet">
+    <link href="css/symboler/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>SkoProffen - Forside</title>
 </head>
 <body>
-    <header>
-    <nav>
-        <span>
+    <div id="grid-container">
+    <header class="hodet">
+        <nav>
+            <span>
             <a href="index.html">SkoProffen</a>
-        </span>
+            </span>
+        <div>
+            <i id="ham" class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            
+            <ul class="nav-info">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="#Omoss-section">Om oss</a></li>
+                <li><a href="abonnement.html">Abonnement</a></li>
+            </ul>
+        </div>
+        </nav>
         <ul>
-            <li>
-                <a href="Om oss">Om oss</a>
-                
-            </li>
-            <li>
-                <a href="Abonnement">Abonnement</a>
-            </li>
-            <li>
-                <a href="Handlevogn">Handlevogn</a>
-            </li>
-        </ul>
-    </nav>
+            <li>Bytte Og Retur</li>
+            <li>Klikk Og Hent</li>
+            <li>Kundeservice</li>
+        </ul>      
         <h1>Velkommen</h1>
-        <p>test</p>
+        <p>God aften!</p>
     </header>
-
-
-
-</body>
+    <main>
+        <section class="flex-container">
+            <h2>Hva skal du handle?</h2>
+            <article class="øverste-bilder">
+                <h6>Herresko</h6>
+                <a href="produkt.html">
+            <figure>
+                <img src="img/balance-6157258_640.jpg" alt="Herre sko. Mann som balanserer på oppå en høyde">
+                <figcaption>Fig.1 - 12138562 - Pixabay</figcaption>
+            </figure>
+                </a>
+            </article>
+            <article>
+                <h6>Kvinnesko</h6>
+                <a href="produkt.html">
+            <figure>
+                <img src="img/shoes-434918_640.jpg" alt="Kvinne sko. Kvinne som har beina ut av en bil med sko på">
+                <figcaption>Fig.2 - Lise Runnels - Pixabay</figcaption>
+            </figure>
+                </a>
+            </article>
+            <article>
+                <h6>Barnesko</h6>
+                <a href="produkt.html"> 
+            <figure>
+                <img src="img/child-4818426_640.jpg" alt="Barne sko. Et barn som knyter skoen sin på en sklie">
+                <figcaption>Fig.3 - Congerdesign - Pixabay</figcaption>
+            </figure>
+                </a>
+            </article>
+               
+            <article class="nederste-bilder">
+                <h6>Festsko til herre</h6>
+                <a href="produkt.html"> 
+            <figure>
+                <img src="img/necktie-1284463_640.jpg" alt="Festsko til herre. Festsko som ligger på et bord med slips som ligger ved siden av">
+                <figcaption>Fig.4 - Pexels - Pixabay</figcaption>
+            </figure>    
+            </a>
+            </article>
+            <article>
+                <h6>Festsko til kvinne</h6>
+                <a href="produkt.html"> 
+            <figure>
+                <img src="img/shoes-8070909_640.jpg" alt="Festsko til Kvinne. Festsko som ligger på et bord med en plante ved siden av">
+                <figcaption>Fig.5 - Nate Ashie - Pixabay</figcaption>
+            </figure>
+                </a>
+            </article>
+            <article>
+                <h6>Festsko til barn</h6>
+                <a href="produkt.html">
+            <figure>
+                <img src="img/DreamShaper_v7_a_close_up_picture_of_a_kids_party_shoe_with_th_0.jpg" alt="Festsko til barn. Festsko til barn med festtema rundt skoene">
+                <figcaption>Fig.6 - AI generert- Leonardo AI</figcaption>
+            </figure>
+                </a>
+            </article>
+                <a href="produkt.html">
+                </a>
+        </section>
+    </main>
+    <section id="Omoss-section">
+            <h2>Om oss</h2>
+            <p>Er du lei av å måtte kjøpe nye sko hver gang de blir slitt og klare for å byttes ut? Vi tilbyr et abonnement som du kan melde deg på slik at du får nye sko i posten automatisk etter ønsket periode uten at du trenger å tenke på noe, til en rimelig pris.</p>
+        </section>
+        <section id="Abonner">
+            <h3>Abonner</h3>
+            <form>
+                <label for="email-signering">Vil du melde deg på vårt nyhetsbrev?</label>
+                <input type="text" id="email-signering">
+                <input type="submit" value="Registrer deg">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#Omoss-section">Om oss</a></li>
+                    <li><a href="abonnement.html">Abonnement</a></li>
+                    <li><a href="#">Kundeservice</a></li>
+                </ul>
+            </nav>
+                <ul id="social-icons">
+                    <li>f</li>
+                    <li>i</li>
+                    <li>p</li>
+                </ul>
+            </footer>
+        </div>
+    </body>
 </html>
 
